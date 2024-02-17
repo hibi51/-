@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>給与計算システム</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>給与計算システム</h1>
+    <form id="salaryForm">
+        <label for="baseSalary">基本給:</label>
+        <input type="number" id="baseSalary" required><br><br>
+
+        <label for="NightbaseSalary">深夜給:</label>
+        <input type="number" id="NightbaseSalary" required><br><br>
+
+        <label for="hoursWorked">勤務時間:</label>
+        <input type="number" id="hoursWorked" required><br><br>
+
+        <label for="NighthoursWorked">深夜勤務時間:</label>
+        <input type="number" id="NighthoursWorked" required><br><br>
+
+
+        <label for="dailyAllowance">日当:</label>
+        <input type="number" id="dailyAllowance" required><br><br>
+
+        <label for="daysWorked">出勤日数:</label>
+        <input type="number" id="daysWorked" required><br><br>
+
+        <label for="transportationAllowance">交通費:</label>
+        <input type="number" id="transportationAllowance" required><br><br>
+
+        <button type="submit">計算</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
